@@ -3,25 +3,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body id="home-body">
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Projects.html">Projects</a>
+        <a href="APIs.html">APIs</a>
+        <!-- <a href="Music.html">Music</a>
+        <a href="Photography.html">Photography</a>        
+        <a href="Sports.html">Sports</a>
+        <a href="temp.html">Temp</a> -->
+    </nav>
     <div id="home-wrap">
-        <img class="home-bg" src="media/spain (3).jpg">
         <div class="home-content">
+
             <h1 class="header">Welcome To CheCalder.com</h1>
             <div id="home-intro">
-                <img id="otter" src="media/suited.jpg" width="450" />
+                <img id="otter" src="media/suited.jpg"/>              
                 <h2 class="home-subtitle">Welcome to my personal website, Have a look around and see whats up!</h2>
-            </div style>                
-            <div class="home-body">  
+            </div>
+
+            <div class="update-home">
+                <a href="Projects.html#website">
+                    <img class="update-home-pics" src="media/website-new.png" href=""/>
+                </a>                
+                <div class="update-home-text">
+                    <p style="margin: 10px">20/06/24 - have recently completely revamped the website, working with viewport units and adapting to mobile has been a learning experience for me and has enabled me to write dynamic webpages as you can see. It was especially important to get my website working on mobile for its accessibilty as I found the majority of users are in fact on mobile. this revamp has been an ongoing process but hasa now come to a close after alot of css work.</p>
+                </div>                  
+            </div>
+
+            <div class="update-home" style="float: right">
+                <a href="Projects.html#website">
+                    <img class="update-home-pics" src="media/website-down.png">
+                </a>
+                <div class="update-home-text">
+                    <p style="margin: 10px; float: left;">01/06/24 - have temporarily taken down the website for "maintenence", i intend to revamp the user experience on moble as up to now it has been pretty atrocious. Created a new landing page "down for maintenence!"</p>
+                </div>                  
+            </div>
+
+            <!-- <div id="home-content-body">
                 <div class="home-projects" id="pong-index">
                     <a href="Projects/#pong" class="cascade">
                         <img
                             class="home-projects-pics"
                             src="media/pong.jpg"/>
                     </a>
-                </div>
-
-                <div class="home-projects" id="rolldeezballz-index">
+                </div> -->
+                
+                <!--<div class="home-projects" id="rolldeezballz-index">
                     <a href="Projects/#rolldeezballz" class="cascade">
                         <img
                             class="home-projects-pics"
@@ -63,7 +92,8 @@
                             src="media/camwork.jpg" />
                     </a>
                 </div>
-            </div>
+            </div>-->
+
         </div>
     </div>
 </body>
